@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Carousal of images">
+        <menu>
+            <item
+                android:id="@+id/coi"
+                android:icon="@drawable/ic_gallery"
+                android:title="Folded Images" />
+        </menu>
+    </item>
+    <item android:title="Product of Images">
+        <menu>
+            <item
+                android:id="@+id/Images"
+                android:icon="@drawable/ic_gallery"
+                android:title="Share" />
+        </menu>
+    </item>
+    <item android:title="RECIPES">
+        <menu>
+            <item
+                android:id="@+id/RECIPES"
+                android:icon="@drawable/ic_gallery"
+                android:title="Recipes" />
+        </menu>
+    </item>
+    <item android:title="Youtube Section">
+        <menu>
+            <item
+                android:id="@+id/youtube_videos"
+                android:icon="@drawable/ic_gallery"
+                android:title="Youtube's Channel" />
+        </menu>
+    </item>
+
+
+</menu>

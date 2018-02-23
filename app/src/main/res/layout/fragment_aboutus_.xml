@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.flavourbasket.flavourbasket.Aboutus_Fragment">
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="250dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="20dp"
+        android:background="#000000">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+            <ImageView
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:src="@drawable/shruti" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:layout_gravity="center"
+        android:text="Flavour Basket™ Online Pvt Ltd"
+        android:textSize="20dp"
+        android:textStyle="italic|bold"
+        android:textColor="#FF4081"/>
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:text="Hi, Welcome to Flavour Basket™. I am Shruti, the person behind this blog. home maker by profession and a kitchen buff. Cooking started as a hobby turned to an experimental job to finally land into something I enjoy during whatever time I can get with myself in the kitchen. Creating different combinations of flavour is what I like and do! I didn’t come from a food or photography background (nope, I barely knew how to boil a potato) so everything you see on this blog is a result self-taught skill. I taught myself how to create recipes and then photograph some of my creations(mostly by my husband). It’s an adventure!
+
+I created a way to interact with you all, share my work and called it Flavour Basket ™. A place where your taste buds could enjoy. I hope to create recipes that would suite your needs; be it that quick evening snack for your naughty kiddo, that Sunday afternoon request from your husband or a quick kitty party with your chirpy group not that we will leave out those unplanned visits from your relatives. I hope I will be able to make the best out of your time you plan to give this blog. My recipes may not be the best but there will be enough to entice your taste buds and your suggestions are more than welcome!
+
+Thanks for dropping by and hope to see you soon again for another that quickie that will become a regular in your kitchen. Have fun and keep your taste buds in control as you read the steps and imagine the platting as shown in the pics here 😉
+
+Here are a few links to get in touch with me and my kitchen. See you there then, till then keep sharpening your taste buds; there will be loads of stuff for them…
+
+"
+            android:paddingTop="8dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"/>
+    </ScrollView>
+
+</LinearLayout>
