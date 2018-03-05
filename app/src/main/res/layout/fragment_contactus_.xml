@@ -14,6 +14,7 @@
         android:textColor="#ff7d26"
         android:layout_gravity="center"/>
 
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -25,8 +26,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:paddingLeft="12dp"
             android:text="Name (required)"
-            android:padding="8dp"
             android:textSize="20dp"
             />
         <EditText
@@ -34,29 +35,29 @@
             android:layout_height="0dp"
             android:layout_weight="0.15"
             android:background="@drawable/edittext_round"
-            android:padding="8dp"
-            android:layout_margin="8dp"
+
+            android:layout_margin="12dp"
             />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Email (required)"
-            android:textSize="20dp"
-            android:padding="8dp"
+           android:textSize="20dp"
+            android:paddingLeft="12dp"
             />
         <EditText
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="0.15"
             android:background="@drawable/edittext_round"
-            android:padding="8dp"
-            android:layout_margin="8dp"
+
+            android:layout_margin="12dp"
             />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Website"
-            android:padding="8dp"
+            android:paddingLeft="12dp"
             android:textSize="20dp"
             />
         <EditText
@@ -64,14 +65,14 @@
             android:layout_height="0dp"
             android:background="@drawable/edittext_round"
             android:layout_weight="0.15"
-            android:padding="8dp"
-            android:layout_margin="8dp"
+
+            android:layout_margin="12dp"
             />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Comment"
-            android:padding="8dp"
+             android:paddingLeft="12dp"
             android:textSize="20dp"
             />
         <EditText
@@ -80,9 +81,7 @@
             android:background="@drawable/edittext_round"
             android:layout_weight="0.55"
             android:gravity="top"
-
-            android:padding="8dp"
-            android:layout_margin="8dp"
+            android:layout_margin="12dp"
             />
         <Button
             android:layout_width="wrap_content"

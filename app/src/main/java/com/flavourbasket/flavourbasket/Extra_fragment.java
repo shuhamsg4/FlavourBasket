@@ -4,10 +4,10 @@ package com.flavourbasket.flavourbasket;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
-import android.support.v7.widget.CardView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
 
 
 /**
@@ -15,7 +15,7 @@ import android.view.ViewGroup;
  */
 public class Extra_fragment extends Fragment {
 
-    CardView aboutus,contactus,terms;
+    LinearLayout aboutus,contactus,terms;
     public Extra_fragment() {
         // Required empty public constructor
     }
@@ -26,9 +26,9 @@ public class Extra_fragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view= inflater.inflate(R.layout.fragment_extra_fragment, container, false);
-        aboutus =view.findViewById(R.id.about_us);
-        contactus=view.findViewById(R.id.contact_us);
-        terms=view.findViewById(R.id.term_and_condition);
+        aboutus =view.findViewById(R.id.aboutus);
+        contactus=view.findViewById(R.id.contactus);
+        terms=view.findViewById(R.id.terms);
         aboutclick();
         contactclick();
         termclick();

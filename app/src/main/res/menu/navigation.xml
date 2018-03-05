@@ -8,6 +8,15 @@
                 android:title="Folded Images" />
         </menu>
     </item>
+    <item android:title="Youtube Section">
+        <menu>
+            <item
+                android:id="@+id/youtube_videos"
+                android:icon="@drawable/ic_gallery"
+                android:title="Youtube's Channel" />
+
+        </menu>
+    </item>
     <item android:title="Product of Images">
         <menu>
             <item
@@ -24,14 +33,7 @@
                 android:title="Recipes" />
         </menu>
     </item>
-    <item android:title="Youtube Section">
-        <menu>
-            <item
-                android:id="@+id/youtube_videos"
-                android:icon="@drawable/ic_gallery"
-                android:title="Youtube's Channel" />
-        </menu>
-    </item>
+
 
 
 </menu>

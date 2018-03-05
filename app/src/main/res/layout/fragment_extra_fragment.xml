@@ -54,12 +54,12 @@
         <android.support.v7.widget.CardView
             android:layout_width="130dp"
             android:layout_height="130dp"
-            android:layout_margin="10dp"
-            android:id="@+id/aboutus">
+            android:layout_margin="10dp">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
+                android:id="@+id/aboutus"
                 android:gravity="center">
                 <ImageView
                     android:layout_width="60dp"
@@ -80,13 +80,13 @@
         <android.support.v7.widget.CardView
             android:layout_width="130dp"
             android:layout_height="130dp"
-            android:layout_margin="10dp"
-            android:id="@+id/contactus">
+            android:layout_margin="10dp">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
-                android:gravity="center">
+                android:gravity="center"
+                android:id="@+id/contactus">
                 <ImageView
                     android:layout_width="60dp"
                     android:layout_height="60dp"
@@ -121,7 +121,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
-                android:gravity="center">
+                android:gravity="center"
+                android:id="@+id/terms">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
